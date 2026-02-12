@@ -1,0 +1,20 @@
+# Nmap 7.98 scan initiated Thu Feb 12 06:40:38 2026 as: /usr/lib/nmap/nmap -sT -n -oN log.txt T4 192.168.0.102
+
+Nmap scan report for 192.168.0.102
+Host is up (0.0038s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+2869/tcp open  icslap
+5357/tcp open  wsdapi
+Warning: 192.168.0.104 giving up on port because retransmission cap hit (2).
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.0.0
+2   0.93 ms 192.168.0.63
+
+# Nmap done at Thu Feb 12 06:41:35 2026 -- 1 IP address (1 host up) scanned in 56.71 seconds
